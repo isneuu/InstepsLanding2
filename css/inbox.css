@@ -1,0 +1,123 @@
+.chat_textarea{
+    width: -webkit-fill-available;
+}
+/* chat messagebox */
+.chat_messagebox {
+    background: white;
+    display: inline-flex;
+        width: 70%;
+    bottom: 0px;
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 20px;
+    position: fixed;
+}
+textarea.chat_textarea_textarea {
+    padding: 10px 20px;
+    border: 0px;
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    width: inherit;
+    resize: none;
+    outline: none;
+}
+.chat_text_content {
+    padding: 10px 20px;
+    max-width: 450px;
+    font-size: 15px;
+    /* border-radius: 20px; */
+    text-align: left;
+    border-bottom: 1px solid #E5E5E5;
+    /* background-color: #f7f7f7; */
+}
+.class{
+    text-align: center;
+    width: auto!important;
+display: inline-flex;
+}
+.chat_activity_item{
+text-align: center;
+
+}
+.chat_input {
+    width: -webkit-fill-available;
+    margin-bottom: 15px;
+}
+.chat_activity_user{
+    margin-right: 5px;
+text-align: center;
+font-weight: 600;
+}
+.chat_activity_item_text{
+        padding: 8px 15px;
+        width: fit-content;
+display: inline-flex;
+    border-radius: 25px;
+        /*border: 1px solid #E5E5E5;  */
+    background-color: white;
+}
+.chat_parent {
+    margin-top: -9px;
+    height: 510px;
+    overflow-y: scroll;
+    transition: all 400ms;
+    padding-right: 30px;
+}
+.chat_item{
+    width: fit-content;
+    color: #000000;
+    text-align: left;
+    padding: 15px;
+}
+.chat_item_me {
+    width: fit-content;
+    color: #000000;
+        transition: all 400ms;
+    float: right;
+    padding: 0px 5px 10px 10px;
+    clear: both;
+}
+.invisible_main{
+    transition: all 1s;
+    padding: 10px;
+}
+
+.chat_user{
+    padding: 5px;
+}
+
+.chat_activity{
+padding-bottom: 25px;
+    width: 720px;
+}
+.title_channel{
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 600;
+}
+.channel_mid_texts{
+    margin-top: 20px;
+}
+.mission_channel{
+        font-size: 16px;
+    padding: 5px 15px;
+}
+
+    .chat_user{
+        font-size: 14px;
+        color:grey;
+    }
+
+.channel {
+    background: white;
+    height: 100%;
+}
+
+.chat_input {
+
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 10px;
+    outline: none;
+    background: #fbfbfb;
+}
